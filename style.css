@@ -55,3 +55,16 @@ nav{
     position: absolute;
     top: 65%;
 }
+/*SEZIONE*/
+section{
+    width: 80%;
+    height: 130px;
+    margin: auto;
+    background-color: lightgray;
+}
+#section-box{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: brown;
+}
