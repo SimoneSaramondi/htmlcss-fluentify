@@ -218,17 +218,50 @@ footer{
     width: 80%;
     height: 100%;
     margin: auto;
-    background-color: aquamarine;
 }
 #titolo-footer{
     width: 30%;
     height: 100%;
-    background-color:yellow;
     float: left;
 }
+#titolo-footer h2{
+    text-align: center;
+    margin-top: 60px;
+}
 #pulsanti-footer{
-    width: 60%;
+    width: 65%;
     height: 100%;
-    background-color: green;
     float: right;
+    padding-top: 50px;
+}
+#pulsanti-footer ul{
+    vertical-align: middle;
+    margin: 10px;
+}
+#primo-pulsante-footer{
+    font-size: 20px;
+}
+#secondo-pulsante-footer{
+    width: 100px;
+}
+#terzo-pulsante-footer button{
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    background-color: lightgreen;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+/*BOTTONE DI AIUTO*/
+/*sistemare perche non si vede*/
+#bottone-help{
+    background-color: lightgreen;
+    color: white;
+    border: 1px solid transparent;
+    float:right;
+    margin-right: 20px;
+}
+#help{
+    position: fixed;
+    z-index: 1;
 }
