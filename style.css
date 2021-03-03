@@ -138,3 +138,28 @@ main{
     height: 15%;
     border: 1px solid black;
 }
+/*FOOTER*/
+footer{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    background-color: lightgrey;
+}
+.footer-box{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: aquamarine;
+}
+#titolo-footer{
+    width: 30%;
+    height: 100%;
+    background-color:yellow;
+    float: left;
+}
+#pulsanti-footer{
+    width: 60%;
+    height: 100%;
+    background-color: green;
+    float: right;
+}
