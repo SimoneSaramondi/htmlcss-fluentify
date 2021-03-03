@@ -5,8 +5,13 @@
 }
 /*HEADER*/
 header{
-    background-color: red;
-    width: 80%;
+    background-image: url(img/background-header.png);
+    background-size: 60%;
+    background-repeat: no-repeat ;
+    background-position-y: 100%;
+    background-position-x: right;
+    background-color: rgb(36, 63, 112);
+    width: 90%;
     height: 500px;
     margin: auto;
 }
@@ -14,37 +19,66 @@ header{
     width: 80%;
     margin: auto;
     height: 500px;
-    background-color: coral;
     position: relative;
 }
 nav{
-    height: 80px;
-    background-color: blue;    
+    height: 80px;  
 }
 #logo-header{
     width: 150px;
     height: 100%;
-    padding: 10px;
-    background-color: blueviolet;
     display: inline-block;
-    margin-right: 5%;
+    margin-right: 5%;position: relative;
 }
 #img-logo{
     width: 100%;
-    height: 80%;
+    position: absolute;
+    top: 10px;
+
 }
+/*sistemare la posizione dei link*/
 #link-header{
-    width: 300px;
-    height: 100%;
-    background-color: cornflowerblue;
+    width: 40%;
     display: inline-block;
+    position: absolute;
+    top: 30px;
+}
+ul li{
+    display: inline-block;
+    font-size: 10px;
+}
+#link-header a{
+    text-decoration: none;
+    color: white;
+    margin: 3px;
 }
 #pulsanti-header{
-    width: 300px;
+    width: 350px;
     height: 100%;
-    background-color: yellow;
     display: inline-block;
     float: right;
+}
+#pulsanti-header a{
+    text-decoration: none;
+    color:white;
+}
+#pulsanti-header ul{
+    position: relative;
+    top:30px
+}
+.bottoni-pulsanti-header{
+    color: white;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+}
+.primo-bottone-testa{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.secondo-bottone-testa{
+    background-color: lightgreen;
+    border:transparent;
 }
 #titolo-header{
     width: 60%;
@@ -66,93 +100,116 @@ nav{
     border-radius: 10px;
     background-color: lightgreen;
     color: white;
+    border: 1px solid transparent;
 }
 /*SEZIONE*/
 section{
-    width: 80%;
+    width: 90%;
     height: 130px;
     margin: auto;
     background-color: lightgray;
 }
 #section-box{
     width: 80%;
-    height: 100%;
     margin: auto;
-    background-color: brown;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+section div h1{
+    font-size: 30px;
+}
+section div p{
+    color: grey;
 }
 /*MAIN-TOP*/
 main{
-    width: 80%;
+    width: 90%;
     margin: auto;
     height: 800px;
-    background-color: hotpink;
 }
 .main-top-box{
     width: 80%;
     height: 50%;
     margin: auto;
-    background-color: bisque;
     border-bottom: 1px solid lightgray;
 }
 .colonna-main-top{
     width: 33%;
     height: 100%;
-    background-color: blue;
-    display: inline-block;
+    float:left;
+}
+.centro{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
 }
 .main-colonna-head{
     width: 100%;
     height: 30%;
-    border: 1px solid black;
+}
+.immagine-main{
+    padding-top: 5px;
+    width: 100%;
+    height: 100%;
 }
 .main-colonna-titolo{
     width: 100%;
     height: 20%;
-    border: 1px solid black;
+}
+.main-colonna-titolo h3{
+    text-align: center;
+    color: lightgreen;
+    padding: 10px;
 }
 .main-colonna-linea{
     width: 100%;
     height: 10%;
-    border: 1px solid black;
+}
+.riga-main{
+    padding: 20px 70px;
 }
 .main-colonna-paragrafo{
     width: 100%;
     height: 40%;
-    border: 1px solid black;
+}
+.main-colonna-paragrafo p{
+    text-align: center;
+    padding: 10px;
 }
 /*MAIN-BOT*/
 .main-bot-box{
     width: 80%;
     height: 50%;
     margin: auto;
-    background-color:crimson;
 }
 .colonna-main-bot{
     width: 50%;
     height: 100%;
-    background-color: blue;
     float: left;
-    border: 1px solid black;
     padding: 10px;
+}
+.colonna-main-bot img{
+    width: 100%;
 }
 .main-colonna-titolo-bot{
     width: 70%;
     height: 30%;
-    border: 1px solid black;
+    margin-bottom: 10px;
 }
 .main-colonna-paragrafo-bot{
     width: 70%;
     height: 30%;
-    border: 1px solid black;
+}
+.main-colonna-paragrafo-bot p{
+    color: grey;
 }
 .main-colonna-link-bot{
     width: 70%;
     height: 15%;
-    border: 1px solid black;
 }
 /*FOOTER*/
 footer{
-    width: 80%;
+    width: 90%;
     height: 150px;
     margin: auto;
     background-color: lightgrey;
