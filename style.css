@@ -68,3 +68,73 @@ section{
     margin: auto;
     background-color: brown;
 }
+/*MAIN-TOP*/
+main{
+    width: 80%;
+    margin: auto;
+    height: 800px;
+    background-color: hotpink;
+}
+.main-top-box{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    background-color: bisque;
+    border-bottom: 1px solid lightgray;
+}
+.colonna-main-top{
+    width: 33%;
+    height: 100%;
+    background-color: blue;
+    display: inline-block;
+}
+.main-colonna-head{
+    width: 100%;
+    height: 30%;
+    border: 1px solid black;
+}
+.main-colonna-titolo{
+    width: 100%;
+    height: 20%;
+    border: 1px solid black;
+}
+.main-colonna-linea{
+    width: 100%;
+    height: 10%;
+    border: 1px solid black;
+}
+.main-colonna-paragrafo{
+    width: 100%;
+    height: 40%;
+    border: 1px solid black;
+}
+/*MAIN-BOT*/
+.main-bot-box{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    background-color:crimson;
+}
+.colonna-main-bot{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+}
+.main-colonna-titolo-bot{
+    width: 70%;
+    height: 30%;
+    border: 1px solid black;
+}
+.main-colonna-paragrafo-bot{
+    width: 70%;
+    height: 30%;
+    border: 1px solid black;
+}
+.main-colonna-link-bot{
+    width: 70%;
+    height: 15%;
+    border: 1px solid black;
+}
