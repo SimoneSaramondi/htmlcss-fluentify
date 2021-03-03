@@ -24,9 +24,14 @@ nav{
 #logo-header{
     width: 150px;
     height: 100%;
+    padding: 10px;
     background-color: blueviolet;
     display: inline-block;
     margin-right: 5%;
+}
+#img-logo{
+    width: 100%;
+    height: 80%;
 }
 #link-header{
     width: 300px;
@@ -42,18 +47,25 @@ nav{
     float: right;
 }
 #titolo-header{
-    background-color: chartreuse;
-    width: 50%;
+    width: 60%;
     height: 30%;
     position: absolute;
     top: 30%;
+    font-size: 25px;
+    color: white;
 }
 #pulsante-titolo-header{
-    background-color: darkgreen;
-    width: 20%;
+    width: 25%;
     height: 10%;
     position: absolute;
     top: 65%;
+}
+#bottone-header{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: lightgreen;
+    color: white;
 }
 /*SEZIONE*/
 section{
