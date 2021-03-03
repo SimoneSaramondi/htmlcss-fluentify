@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*HEADER*/
+header{
+    background-color: red;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+.head-box{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-color: coral;
+    position: relative;
+}
+nav{
+    height: 80px;
+    background-color: blue;    
+}
+#logo-header{
+    width: 150px;
+    height: 100%;
+    background-color: blueviolet;
+    display: inline-block;
+    margin-right: 5%;
+}
+#link-header{
+    width: 300px;
+    height: 100%;
+    background-color: cornflowerblue;
+    display: inline-block;
+}
+#pulsanti-header{
+    width: 300px;
+    height: 100%;
+    background-color: yellow;
+    display: inline-block;
+    float: right;
+}
+#titolo-header{
+    background-color: chartreuse;
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    top: 30%;
+}
+#pulsante-titolo-header{
+    background-color: darkgreen;
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    top: 65%;
+}
