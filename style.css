@@ -189,7 +189,7 @@ main{
     padding: 10px;
 }
 .colonna-main-bot img{
-    width: 100%;
+    width: 90%;
 }
 .main-colonna-titolo-bot{
     width: 70%;
@@ -210,7 +210,7 @@ main{
 /*FOOTER*/
 footer{
     width: 90%;
-    height: 150px;
+    height: 120px;
     margin: auto;
     background-color: lightgrey;
 }
@@ -240,9 +240,11 @@ footer{
 }
 #primo-pulsante-footer{
     font-size: 20px;
+    margin-right: 5px;
 }
 #secondo-pulsante-footer{
     width: 100px;
+    border: 1px solid transparent;
 }
 #terzo-pulsante-footer button{
     padding: 5px;
@@ -253,15 +255,16 @@ footer{
     border-radius: 5px;
 }
 /*BOTTONE DI AIUTO*/
-/*sistemare perche non si vede*/
+/*da sistemare*/
 #bottone-help{
     background-color: lightgreen;
     color: white;
     border: 1px solid transparent;
     float:right;
     margin-right: 20px;
+    padding: 2px;
 }
-#help{
-    position: fixed;
+.help{
     z-index: 1;
+    position: relative;
 }
