@@ -255,12 +255,20 @@ footer{
     border-radius: 5px;
 }
 /*BOTTONE DI AIUTO*/
-/*da sistemare*/
 #bottone-help{
     background-color: lightgreen;
     color: white;
     border: 1px solid transparent;
-    float:right;
+    position: relative;
+    left: 650px;
+    top: 20px;
     margin-right: 20px;
     padding: 2px;
 }
+.help{
+    position:fixed;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    z-index:999999;
+    }
